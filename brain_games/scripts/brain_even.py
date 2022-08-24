@@ -17,3 +17,9 @@ def is_even(number):
     divider = 2
 
     return number % divider == 0
+
+
+def show_rules_game():
+    """The function shows the rules of the game."""
+
+    print('Answer "yes" if the number is even, otherwise answer "no".')
