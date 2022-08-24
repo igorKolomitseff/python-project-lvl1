@@ -12,3 +12,9 @@ def ask_user_name():
 
     name = prompt.string('May I have your name? ')
     return name
+
+
+def welcome_user(name):
+    """The function greets the user."""
+
+    print(f'Hello, {name}!')
