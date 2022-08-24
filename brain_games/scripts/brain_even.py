@@ -1,4 +1,5 @@
 from random import randint
+import prompt
 
 
 def choose_random_number():
@@ -23,3 +24,16 @@ def show_rules_game():
     """The function shows the rules of the game."""
 
     print('Answer "yes" if the number is even, otherwise answer "no".')
+
+
+
+def ask_and_answer():
+    """The function selects a random number, prints the question and asks
+    the user for the answer. Returns the random number and the
+    answer."""
+    random_number = choose_random_number()
+
+    print(f'Question: {random_number}')
+    answer = prompt.string('Your answer: ').lower()
+
+    return (random_number, answer)
