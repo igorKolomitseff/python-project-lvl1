@@ -44,3 +44,36 @@ def show_correct_answer(answer, correct_answer, user_name):
 
     print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
     print(f"Let's try again, {user_name}!")
+
+
+def is_even_game(user_name):
+    """The function asks the user if the number is even."""
+    count_correct_answers = 0  # counter of correct answers
+
+    random_number, answer = ask_and_answer()
+
+    while count_correct_answers < 3:
+
+        if ((answer == 'yes' and is_even(random_number)) or
+            (answer == 'no' and not is_even(random_number))):
+            count_correct_answers += 1
+
+            print('Correct!')
+
+            if count_correct_answers == 3:
+                print(f'Congratulations, {user_name}!')
+                break
+
+            random_number, answer = ask_and_answer()
+
+        elif answer != 'yes' and is_even(random_number):
+            correct_answer = 'yes'
+
+            show_correct_answer(answer, correct_answer, user_name)
+            break
+
+        elif answer != 'no' and not is_even(random_number):
+            correct_answer = 'no'
+
+            show_correct_answer(answer, correct_answer, user_name)
+            break
