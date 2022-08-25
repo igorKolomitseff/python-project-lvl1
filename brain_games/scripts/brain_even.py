@@ -1,5 +1,8 @@
 from random import randint
 import prompt
+from brain_games.scripts.greeting import show_greeting
+from brain_games.scripts.greeting import ask_user_name
+from brain_games.scripts.greeting import welcome_user
 
 
 def choose_random_number():
@@ -77,3 +80,15 @@ def is_even_game(user_name):
 
             show_correct_answer(answer, correct_answer, user_name)
             break
+
+
+def main():
+    show_greeting()
+    user_name = ask_user_name()
+    welcome_user(user_name)
+    show_rules_game()
+    is_even_game(user_name)
+
+
+if __name__ == '__main__':
+    main()
