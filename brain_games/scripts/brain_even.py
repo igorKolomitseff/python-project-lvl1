@@ -37,3 +37,10 @@ def ask_and_answer():
     answer = prompt.string('Your answer: ').lower()
 
     return (random_number, answer)
+
+
+def show_correct_answer(answer, correct_answer, user_name):
+    """The function shows the correct answer"""
+
+    print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+    print(f"Let's try again, {user_name}!")
