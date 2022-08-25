@@ -29,7 +29,6 @@ def show_rules_game():
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
 
-
 def ask_and_answer():
     """The function selects a random number, prints the question and asks
     the user for the answer. Returns the random number and the
@@ -45,7 +44,8 @@ def ask_and_answer():
 def show_correct_answer(answer, correct_answer, user_name):
     """The function shows the correct answer"""
 
-    print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+    print(f"'{answer}' is wrong answer ;(.", end=" ")
+    print("Correct answer was '{correct_answer}'.")
     print(f"Let's try again, {user_name}!")
 
 
@@ -57,8 +57,8 @@ def is_even_game(user_name):
 
     while count_correct_answers < 3:
 
-        if ((answer == 'yes' and is_even(random_number)) or
-            (answer == 'no' and not is_even(random_number))):
+        if ((answer == 'yes' and is_even(random_number))
+                or (answer == 'no' and not is_even(random_number))):
             count_correct_answers += 1
 
             print('Correct!')
