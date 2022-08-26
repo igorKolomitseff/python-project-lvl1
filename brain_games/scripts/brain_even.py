@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from random import randint
 import prompt
 from brain_games.scripts.greeting import show_greeting
