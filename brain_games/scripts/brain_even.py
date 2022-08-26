@@ -46,7 +46,7 @@ def show_correct_answer(answer, correct_answer, user_name):
     """The function shows the correct answer"""
 
     print(f"'{answer}' is wrong answer ;(.", end=" ")
-    print("Correct answer was '{correct_answer}'.")
+    print(f"Correct answer was '{correct_answer}'.")
     print(f"Let's try again, {user_name}!")
 
 
