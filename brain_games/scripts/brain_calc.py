@@ -1,4 +1,5 @@
 from random import randint
+from random import choice
 
 
 def choose_random_number():
@@ -9,3 +10,12 @@ def choose_random_number():
     random_number = randint(begin_of_range, end_of_range)
 
     return random_number
+
+
+def choose_math_operator():
+    """Return random math operator: '+', '-' or '*'."""
+    math_operators = ('+', '-', '*')
+
+    random_math_operator = choice(math_operators)
+
+    return random_math_operator
