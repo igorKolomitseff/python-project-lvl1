@@ -2,13 +2,13 @@ import prompt
 
 
 def show_greeting():
-    """The function prints a welcome message."""
+    """Print a welcome message."""
 
     print('Welcome to the Brain Games!')
 
 
 def ask_user_name():
-    """The function asks for the user's name and returns it."""
+    """Ask for the user's name and return it."""
 
     name = prompt.string('May I have your name? ')
 
@@ -16,6 +16,6 @@ def ask_user_name():
 
 
 def welcome_user(name):
-    """The function greets the user."""
+    """Greet the user."""
 
     print(f'Hello, {name}!')
