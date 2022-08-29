@@ -19,3 +19,9 @@ def choose_math_operator():
     random_math_operator = choice(math_operators)
 
     return random_math_operator
+
+
+def show_rules_game():
+    """Show the rules of the game."""
+
+    print('What is the result of the expression?.')
