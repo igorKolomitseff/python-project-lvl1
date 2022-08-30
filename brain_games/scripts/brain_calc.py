@@ -39,3 +39,14 @@ def ask_and_answer():
     answer = prompt.string('Your answer: ')
 
     return (first_operand, second_operand, math_operator, answer)
+
+
+def calc_correct_answer(first_operand, second_operand, math_operator):
+    """Return the correct answer."""
+
+    if math_operator == '+':
+        return first_operand + second_operand
+    elif math_operator == '-':
+        return first_operand - second_operand
+    elif math_operator == '*':
+        return first_operand * second_operand
