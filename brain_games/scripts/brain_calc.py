@@ -58,3 +58,31 @@ def show_correct_answer(answer, correct_answer, user_name):
     print(f"'{answer}' is wrong answer ;(.", end=" ")
     print(f"Correct answer was '{correct_answer}'.")
     print(f"Let's try again, {user_name}!")
+
+
+def calc_game(user_name):
+    """Show a random mathematical expression to be calculated and 
+    ask the user to write down the correct answer."""
+    count_correct_answers = 0  # counter of correct answers
+
+    first_operand, second_operand, math_operator, answer = ask_and_answer()
+    correct_answer = calc_correct_answer(first_operand, second_operand, math_operator)
+
+    while count_correct_answers < 3:
+
+        if answer == correct_answer:
+            count_correct_answers += 1
+
+            print('Correct!')
+
+            if count_correct_answers == 3:
+                print(f'Congratulations, {user_name}!')
+                break
+
+            first_operand, second_operand, math_operator, answer = ask_and_answer()
+            correct_answer = calc_correct_answer(first_operand, second_operand, math_operator)
+
+        elif answer != correct_answer:
+
+            show_correct_answer(answer, correct_answer, user_name)
+            break
