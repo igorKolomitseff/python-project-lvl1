@@ -32,7 +32,7 @@ def show_rules_game():
 
 
 def ask_and_answer():
-    """Select random operands and a random operator, print the question 
+    """Select random operands and a random operator, print the question
     and ask the user for the answer. Return random operands, the random
     operator and the answer."""
     first_operand = choose_random_number()
@@ -65,7 +65,7 @@ def show_correct_answer(answer, correct_answer, user_name):
 
 
 def calc_game(user_name):
-    """Show a random mathematical expression to be calculated and 
+    """Show a random mathematical expression to be calculated and
     ask the user to write down the correct answer."""
     count_correct_answers = 0  # counter of correct answers
 
