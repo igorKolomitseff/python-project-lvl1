@@ -50,3 +50,11 @@ def calc_correct_answer(first_operand, second_operand, math_operator):
         return first_operand - second_operand
     elif math_operator == '*':
         return first_operand * second_operand
+
+
+def show_correct_answer(answer, correct_answer, user_name):
+    """Print the correct answer."""
+
+    print(f"'{answer}' is wrong answer ;(.", end=" ")
+    print(f"Correct answer was '{correct_answer}'.")
+    print(f"Let's try again, {user_name}!")
