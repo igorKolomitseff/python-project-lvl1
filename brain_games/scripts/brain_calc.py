@@ -40,7 +40,7 @@ def ask_and_answer():
     math_operator = choose_math_operator()
 
     print(f'Question: {first_operand} {math_operator} {second_operand}')
-    answer = prompt.string('Your answer: ')
+    answer = int(prompt.string('Your answer: '))
 
     return (first_operand, second_operand, math_operator, answer)
 
