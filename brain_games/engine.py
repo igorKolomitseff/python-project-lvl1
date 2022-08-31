@@ -11,7 +11,7 @@ def launch_game(game):
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
 
-    print(game.DESCRIPTION_OF_GAME)
+    print(game.GAME_DESCRIPTION)
 
     count_correct_answers = 0
 
