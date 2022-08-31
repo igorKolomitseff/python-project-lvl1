@@ -22,5 +22,5 @@ def get_question_answer():
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    
+
     return (question, correct_answer)
