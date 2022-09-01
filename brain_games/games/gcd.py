@@ -14,6 +14,6 @@ def get_question_answer():
     second_number = randint(begin_of_range, end_of_range)
 
     question = f'Question: {first_number} {second_number }'
-    correct_answer = gcd(first_number, second_number)
+    correct_answer = str(gcd(first_number, second_number))
 
     return (question, correct_answer)
