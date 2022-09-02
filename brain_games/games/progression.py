@@ -17,8 +17,8 @@ def get_question_answer():
     progression = [f'{random_number}']
 
     for i in range(1, PROGRESSION_LENGTH):
-        progression.append(str(int(progression[i - 1])  + random_step))
-    
+        progression.append(str(int(progression[i - 1]) + random_step))
+
     miss_number = f'{choice(progression)}'
 
     progression = ' '.join(progression)
