@@ -1,4 +1,4 @@
-from random import randint
+from random import randint, choice
 
 
 GAME_DESCRIPTION = 'What number is missing in the progression?.'
@@ -19,7 +19,7 @@ def get_question_answer():
     for i in range(1, PROGRESSION_LENGTH):
         progression.append(str(int(progression[i - 1])  + random_step))
     
-    miss_number = f'{randint(progression)}'
+    miss_number = f'{choice(progression)}'
 
     progression = ' '.join(progression)
 
