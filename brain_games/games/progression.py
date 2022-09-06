@@ -20,7 +20,7 @@ def get_question_answer():
 
     for i in range(1, PROGRESSION_LENGTH):
         progression.append(str(int(progression[i - 1]) + random_step))
-    
+
     index_miss_number = randint(min_index_item, max_index_item)
     miss_number = progression[index_miss_number]
     progression[index_miss_number] = '..'
