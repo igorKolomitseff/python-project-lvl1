@@ -1,7 +1,7 @@
 from random import randint
 
 
-GAME_DESCRIPTION = 'What number is missing in the progression?.'
+GAME_DESCRIPTION = 'What number is missing in the progression?'
 PROGRESSION_LENGTH = 10
 
 
