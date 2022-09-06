@@ -24,9 +24,9 @@
 + Brain Progression:
               
       brain-progression
-[![asciicast](https://asciinema.org/a/xYh0ZifkfYbiaEgDAU4gUbgCR.svg)](https://asciinema.org/a/xYh0ZifkfYbiaEgDAU4gUbgCR)
+[![asciicast](https://asciinema.org/a/K57x6aDJbEjHfv15GCjlkI9n5.svg)](https://asciinema.org/a/K57x6aDJbEjHfv15GCjlkI9n5)
 
 + Brain Prime:
 
       brain-prime
-[![asciicast](https://asciinema.org/a/lI983b84zSZof8XeAJNReYXfa.svg)](https://asciinema.org/a/lI983b84zSZof8XeAJNReYXfa)
+[![asciicast](https://asciinema.org/a/l3CS8Aj1ofFusSgrgLgrTmCYa.svg)](https://asciinema.org/a/l3CS8Aj1ofFusSgrgLgrTmCYa)
