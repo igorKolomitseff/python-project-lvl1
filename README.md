@@ -14,46 +14,45 @@ The package contains five simple math games:
 - Is it a prime number?
 
 ## Installation
-___
 
 Use the package manager [pip](https://pypi.org/project/pip/) to install Brain Games.
 
 ```
 python3 -m pip install --user git+https://github.com/igorKolomitseff/python-project-lvl1.git
 ```
+[![asciicast](https://asciinema.org/a/N8nYngXOumI2oft8jdTxIesX9.svg)](https://asciinema.org/a/N8nYngXOumI2oft8jdTxIesX9)
 
 ## Work process (with the commands to launch of the games)
-___
 
-- Even check:
+### Even check
 
 ```
 brain-even
 ```
 [![asciicast](https://asciinema.org/a/QOZNjrU0JiS5bt3ZUSWOuPpXK.svg)](https://asciinema.org/a/QOZNjrU0JiS5bt3ZUSWOuPpXK)
 
-- Calculator:
+### Calculator
 
 ```
 brain-calc
 ```
 [![asciicast](https://asciinema.org/a/4x9znbxvFRdkoZ2vNzDIWaLzf.svg)](https://asciinema.org/a/4x9znbxvFRdkoZ2vNzDIWaLzf)
 
-- Greatest common divisor:
+### Greatest common divisor
 
 ```
 brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/92LiaqCQjW638bXktTR1Ipb7X.svg)](https://asciinema.org/a/92LiaqCQjW638bXktTR1Ipb7X)
 
-- Arithmetic progression:
+### Arithmetic progression
 
 ```           
 brain-progression
 ```
 [![asciicast](https://asciinema.org/a/K57x6aDJbEjHfv15GCjlkI9n5.svg)](https://asciinema.org/a/K57x6aDJbEjHfv15GCjlkI9n5)
 
-- Is it a prime number?:
+### Is it a prime number?
 
 ```
 brain-prime
