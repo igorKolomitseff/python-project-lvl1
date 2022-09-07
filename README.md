@@ -1,32 +1,61 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/igorKolomitseff/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/igorKolomitseff/python-project-lvl1/actions)
+# Brain Games
 
-### Code Climate tests and linter status:
+[![Actions Status](https://github.com/igorKolomitseff/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/igorKolomitseff/python-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/5b352688bcadf9aacb1b/maintainability)](https://codeclimate.com/github/igorKolomitseff/python-project-lvl1/maintainability)
 
-## Work process:
+This project is the first of four training projects of the Python Software Developer course on [Hexlet.io](https://ru.hexlet.io/programs/python).
 
-+ Brain Even:
+The package contains five simple math games:
 
-      brain-even
+- Even check
+- Calculator
+- Greatest common divisor
+- Arithmetic progression
+- Is it a prime number?
+
+## Installation
+___
+
+Use the package manager [pip](https://pypi.org/project/pip/) to install Brain Games.
+
+```
+python3 -m pip install --user git+https://github.com/igorKolomitseff/python-project-lvl1.git
+```
+
+## Work process (with the commands to launch of the games)
+___
+
+- Even check:
+
+```
+brain-even
+```
 [![asciicast](https://asciinema.org/a/QOZNjrU0JiS5bt3ZUSWOuPpXK.svg)](https://asciinema.org/a/QOZNjrU0JiS5bt3ZUSWOuPpXK)
 
-+ Brain Calc:
+- Calculator:
 
-      brain-calc
+```
+brain-calc
+```
 [![asciicast](https://asciinema.org/a/4x9znbxvFRdkoZ2vNzDIWaLzf.svg)](https://asciinema.org/a/4x9znbxvFRdkoZ2vNzDIWaLzf)
 
-+ Brain GCD:
+- Greatest common divisor:
 
-      brain-gcd
+```
+brain-gcd
+```
 [![asciicast](https://asciinema.org/a/92LiaqCQjW638bXktTR1Ipb7X.svg)](https://asciinema.org/a/92LiaqCQjW638bXktTR1Ipb7X)
 
-+ Brain Progression:
-              
-      brain-progression
+- Arithmetic progression:
+
+```           
+brain-progression
+```
 [![asciicast](https://asciinema.org/a/K57x6aDJbEjHfv15GCjlkI9n5.svg)](https://asciinema.org/a/K57x6aDJbEjHfv15GCjlkI9n5)
 
-+ Brain Prime:
+- Is it a prime number?:
 
-      brain-prime
+```
+brain-prime
+```
 [![asciicast](https://asciinema.org/a/l3CS8Aj1ofFusSgrgLgrTmCYa.svg)](https://asciinema.org/a/l3CS8Aj1ofFusSgrgLgrTmCYa)
